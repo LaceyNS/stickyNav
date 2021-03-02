@@ -79,6 +79,11 @@ li.logo {
   font-size: 30px;
 }
 
+.fixed-nav li.logo {
+  /* Use max-width because animation doesn't work with width/width=auto */
+  max-width: 500px;
+}
+
 li.logo a {
   color: black;
 }
